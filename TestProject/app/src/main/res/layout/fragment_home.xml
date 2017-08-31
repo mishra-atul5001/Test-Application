@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.mishr.testproject.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+             <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Tap This..!!"
+                 android:onClick="MagicClick"
+                 android:textAllCaps="false"
+                 android:textStyle="bold|italic"
+                 android:textSize="25dp"
+
+                 android:layout_margin="25dp"
+                 android:id="@+id/button"/>
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/pic1"
+                 android:id="@+id/imageview1"
+                 android:padding="25dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="This is We..!!"
+                 android:layout_alignBottom="@id/imageview1"
+                 android:gravity="center"
+                 android:textAlignment="center"
+                 android:textSize="25sp"
+                 android:padding="15dp"
+                 android:layout_marginLeft="100dp"
+                 android:layout_marginBottom="50dp"/>
+         </RelativeLayout>
+
+</FrameLayout>
